@@ -1,53 +1,160 @@
 {
   "id": "post-001",
-  "videoId": "dQw4w9WgXcQ",
-  "videoTitle": "English Tenses Masterclass",
-  "videoDescription": "In this comprehensive lesson, Ms. Thúy breaks down all 12 English tenses with real-life examples. Perfect for intermediate learners who want to speak confidently!",
+  "videoId": "8t_qFivFGaM",
+  "videoTitle": "Young Sheldon: The Cooper Family Sits Down For Family Dinner (Season 1 Episode 1 Clip)",
+  "videoDescription": "In this video, we'll learn some common vocabulary in daily conversation",
   "level": "B1",
-  "duration": "15:30",
+  "duration": "2:29",
   "quizData": [
-    {
-      "type": "mcq",
-      "question": "Which tense is used for habitual actions?",
-      "choices": ["Present Simple", "Present Continuous", "Present Perfect", "Past Simple"],
-      "answer": 0,
-      "explanation": "Present Simple is used for habits, routines, and general truths. Example: 'I drink coffee every morning.'"
-    },
-    {
-      "type": "fill",
-      "question": "Complete: 'She ___ (study) English for 3 years.' (present perfect)",
-      "answer": "has studied",
-      "explanation": "Present Perfect = have/has + past participle. 'She' uses 'has'."
-    },
-    {
-      "type": "mcq",
-      "question": "What does 'I have been waiting' express?",
-      "choices": [
-        "A completed past action",
-        "An action that started in the past and continues now",
-        "A future plan",
-        "A hypothetical situation"
-      ],
-      "answer": 1,
-      "explanation": "Present Perfect Continuous emphasizes the duration of an ongoing action that started in the past."
-    },
-    {
-      "type": "mcq",
-      "question": "Choose the correct past continuous form:",
-      "choices": [
-        "I was eat dinner.",
-        "I was eating dinner.",
-        "I ate dinner.",
-        "I have eaten dinner."
-      ],
-      "answer": 1,
-      "explanation": "Past Continuous = was/were + V-ing. Used for actions in progress at a specific past time."
-    },
-    {
-      "type": "fill",
-      "question": "Fill in: 'By next year, I ___ (graduate) from university.' (future perfect)",
-      "answer": "will have graduated",
-      "explanation": "Future Perfect = will have + past participle. Used for actions completed before a future time."
-    }
-  ]
+  {
+    type: "mcq",
+    question: "Why does Sheldon say he cannot be adopted?",
+    choices: [
+      "Because he looks like his parents.",
+      "Because he has a twin sister.",
+      "Because he has a younger brother.",
+      "Because he knows his birth parents."
+    ],
+    answer: 1,
+    explanation: "Sheldon says, 'How can I be adopted when I have a twin sister?'"
+  },
+  {
+    type: "mcq",
+    question: "What were they about to do before dinner?",
+    choices: [
+      "Watch TV",
+      "Wash the dishes",
+      "Pray",
+      "Leave the house"
+    ],
+    answer: 2,
+    explanation: "Mary says, 'Now, let's pray.'"
+  },
+  {
+    type: "mcq",
+    question: "What food did Georgie wish they had?",
+    choices: [
+      "French fries",
+      "Mashed potatoes",
+      "Chicken nuggets",
+      "Tater tots"
+    ],
+    answer: 3,
+    explanation: "Georgie asks, 'How come we ain't got no tater tots?'"
+  },
+  {
+    type: "mcq",
+    question: "What does George Sr. say he prefers?",
+    choices: [
+      "Rice over potatoes",
+      "Tater tots over mashed potatoes",
+      "Mashed potatoes over tater tots",
+      "Pizza over potatoes"
+    ],
+    answer: 1,
+    explanation: "George says he'd take tater tots over mashed potatoes any day."
+  },
+  {
+    type: "mcq",
+    question: "Why is Georgie unhappy about school?",
+    choices: [
+      "He failed his classes.",
+      "He has too much homework.",
+      "Sheldon will be in the same grade.",
+      "He is changing schools."
+    ],
+    answer: 2,
+    explanation: "Georgie complains that Sheldon will be in the same grade as him."
+  },
+  {
+    type: "mcq",
+    question: "What does Sheldon say about ninth grade?",
+    choices: [
+      "He wants to repeat it.",
+      "He won't stay there for very long.",
+      "He is afraid of it.",
+      "He plans to skip school."
+    ],
+    answer: 1,
+    explanation: "Sheldon says he isn't planning on being in the ninth grade for very long."
+  },
+  {
+    type: "mcq",
+    question: "Why can't George Sr. go to church?",
+    choices: [
+      "He is sick.",
+      "He has homework.",
+      "He is meeting with the other coaches.",
+      "He is traveling."
+    ],
+    answer: 2,
+    explanation: "George Sr. says he is meeting with the other coaches."
+  },
+  {
+    type: "mcq",
+    question: "Why does Sheldon decide to go to church?",
+    choices: [
+      "He believes in God.",
+      "He likes church music.",
+      "He believes in Mom.",
+      "His teacher told him to go."
+    ],
+    answer: 2,
+    explanation: "Sheldon says, 'I don't believe in God, but I believe in Mom.'"
+  },
+  {
+    type: "mcq",
+    question: "Who asked Missy to do something?",
+    choices: [
+      "Mary",
+      "Heather",
+      "Georgie",
+      "Sheldon"
+    ],
+    answer: 1,
+    explanation: "Missy says Heather asked her to do something."
+  },
+  {
+    type: "mcq",
+    question: "According to Adult Sheldon, where did Jane Goodall go to study apes?",
+    choices: [
+      "Australia",
+      "Asia",
+      "Africa",
+      "Europe"
+    ],
+    answer: 2,
+    explanation: "Adult Sheldon says Jane Goodall had to go to Africa to study apes."
+  },
+  {
+    type: "fill",
+    question: "Complete the sentence: 'Sheldon said he was exploring ________ kinematics.'",
+    answer: "dimensional",
+    explanation: "The full phrase is 'dimensional kinematics.'"
+  },
+  {
+    type: "fill",
+    question: "Complete the sentence: 'Mary thanked God for the ________ they were about to receive.'",
+    answer: "food",
+    explanation: "She prayed, 'Thank you, God, for this food we're about to receive.'"
+  },
+  {
+    type: "fill",
+    question: "Complete the sentence: 'George Sr. preferred tater tots over mashed ________.'",
+    answer: "potatoes",
+    explanation: "George says he would take tater tots over mashed potatoes any day."
+  },
+  {
+    type: "fill",
+    question: "Complete the sentence: 'High school is a haven for higher ________.'",
+    answer: "learning",
+    explanation: "Sheldon describes high school as 'a haven for higher learning.'"
+  },
+  {
+    type: "fill",
+    question: "Complete the sentence: 'I don't believe in God, but I believe in ________.'",
+    answer: "Mom",
+    explanation: "Sheldon goes to church because he believes in his mother."
+  }
+]
 }
