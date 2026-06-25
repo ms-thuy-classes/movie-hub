@@ -1,15 +1,15 @@
 [
   {
     "id": "post-001",
-    "title": "English Tenses Masterclass",
-    "description": "Master all 12 English tenses with clear examples and practice exercises.",
-    "thumbnail": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600",
+    "title": "Young Sheldon part 1",
+    "description": "Master English with daily conversation.",
+    "thumbnail": "https://play-lh.googleusercontent.com/BXr3BgV6zom1hWG8r6830RCzRtvZEoImBnDxZSJ75p5zFQeDIeLRXUsr0hmY9qI_5T-UaYUP5O-hlt6kNuU",
     "level": "B1",
-    "tags": ["grammar", "tenses"],
+    "tags": ["vocabulary", "tenses", "science"],
     "duration": "15:30",
     "date": "2026-06-20",
     "views": 1245,
-    "questions": 10
+    "questions": 15
   },
   {
     "id": "post-002",
