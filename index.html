@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn with Ms. Thúy – English Learning Hub</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">🎓</span>
+                <div class="logo-text">
+                    <h1>Learn with Ms. Thúy</h1>
+                    <p>English Learning Hub</p>
+                </div>
+            </div>
+            
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">✨ Free English Lessons</span>
+            <h2>Master English with <span class="gradient-text">Interactive Video Lessons</span></h2>
+            <p>Watch, learn, and practice with Ms. Thúy – from beginner to advanced levels.</p>
+        </div>
+    </section>
+
+    <!-- ===== TOOLBAR: Search + Filter ===== -->
+    <section class="toolbar-section">
+        <div class="toolbar-container">
+            <!-- Search -->
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="Search lessons, topics, tags..."
+                    autocomplete="off"
+                >
+                <button id="clear-search" class="clear-btn" title="Clear">✕</button>
+            </div>
+            
+            <!-- Level Filter -->
+            <div class="filter-group">
+                <span class="filter-label">Level:</span>
+                <div class="filter-chips" id="level-filter">
+                    <button class="chip active" data-level="all">All</button>
+                    <button class="chip" data-level="A1">A1</button>
+                    <button class="chip" data-level="A2">A2</button>
+                    <button class="chip" data-level="B1">B1</button>
+                    <button class="chip" data-level="B2">B2</button>
+                    <button class="chip" data-level="C1">C1</button>
+                    <button class="chip" data-level="C2">C2</button>
+                </div>
+            </div>
+            
+            <!-- Sort -->
+            <div class="sort-box">
+                <select id="sort-select">
+                    <option value="newest">🆕 Newest</option>
+                    <option value="oldest">📅 Oldest</option>
+                    <option value="popular">🔥 Most Popular</option>
+                    <option value="az">🔤 A → Z</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LESSONS GRID ===== -->
+    <main class="main-content">
+        <div class="results-info">
+            <span id="results-count">Loading...</span>
+        </div>
+        
+        <div id="lessons-grid" class="lessons-grid">
+            <!-- Cards rendered by JS -->
+        </div>
+        
+        <!-- Empty state -->
+        <div id="empty-state" class="empty-state" style="display:none;">
+            <div class="empty-icon">🔍</div>
+            <h3>No lessons found</h3>
+            <p>Try adjusting your search or filters.</p>
+        </div>
+        
+        <!-- Pagination -->
+        <div id="pagination" class="pagination"></div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>© 2026 <strong>Learn with Ms. Thúy</strong> – Made with 💖 for English learners</p>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
